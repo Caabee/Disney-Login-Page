@@ -1,5 +1,6 @@
 html {
-    background-image: radial-gradient(#056675,#051828);
+    /* background-image: radial-gradient(#056675,#051828); */
+    background-image: url('../img/1440x812-Q80_a07703ca3b6a116da27420bfbe5061ec.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

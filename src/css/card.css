@@ -22,7 +22,7 @@
 
 .my-disney-logo {
     width: 100px;
-    margin-top: 60px;
+    margin-top: 53px;
     margin-right: 340px;
 }
 
@@ -30,17 +30,18 @@
     font-weight: 500;
     font-size: 28px;
     margin-right: 10px;
-    transform: translateY(-23px);
+    transform: translateY(-20px);
 }
 
 .subtitle p {
-    font-weight: 400;
+    font-weight: 300;
     width: 445px;
-    transform: translateY(-45px);
+    transform: translateY(-35px);
+    line-height: 1.6;
 }
 
 .email-container {
-    transform: translateY(-40px);
+    transform: translateY(-25px);
 }
 
 .custom-field {
@@ -131,7 +132,7 @@
 }
 
 .continuar-btn {
-    transform: translateY(-40px);
+    transform: translateY(-25px);
 }
 
 .continuar-btn button:hover {
@@ -154,6 +155,7 @@
     color: #686363;
     width: 450px;
     margin-left: 15px;
+    line-height: 1.6;
 }
 
 .img-footer {
