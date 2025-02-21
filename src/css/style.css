@@ -1,0 +1,15 @@
+html {
+    background-image: radial-gradient(#056675,#051828);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.disney-plus-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

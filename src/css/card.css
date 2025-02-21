@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    border-radius: 5%;
+    margin: 20px;
+    width: 585px;
+    height: 600px;
+}
+
+.my-disney-logo {
+    width: 100px;
+    margin-top: 60px;
+    margin-right: 340px;
+}
+
+.title h1 {
+    font-weight: 500;
+    font-size: 28px;
+    margin-right: 10px;
+    transform: translateY(-23px);
+}
+
+.subtitle p {
+    font-weight: 400;
+    width: 445px;
+    transform: translateY(-45px);
+}
+
+.email-container {
+    transform: translateY(-40px);
+}
+
+.custom-field {
+    position: relative;
+    font-size: 17px;
+    padding-top: 20px;
+    margin-bottom: 5px;
+}
+
+.custom-field input {
+    border: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    color: #000000;
+    background-color: rgba(71, 71, 71, 1);
+    padding: 12px;
+    border-radius: 3px;
+    width: 440px;
+    height: 50px;
+    outline: none;
+    font-size: 17px;
+    ;
+}
+
+.custom-field .placeholder {
+    position: absolute;
+    left: 12px;
+    top: calc(50% + 10px);
+    transform: translateY(-50%);
+    color: #383636;
+    transition:
+        top 0.3s ease,
+        font-size 0.3s ease,
+        color 0.3s ease;
+}
+
+.custom-field input:valid+.placeholder,
+.custom-field input:focus+.placeholder {
+
+    top: -1px;
+    font-size: 10px;
+
+}
+
+.custom-field.one input {
+    background: none;
+    border: 1px solid #000000;
+    transition: border-color 0.3s ease;
+}
+
+.custom-field.one input:valid,
+.custom-field.one input:focus {
+    border-color: #141414;
+    transition-delay: 0.1s;
+}
+
+.custom-field.one input+.placeholder {
+    padding: 0 5px;
+    left: 8px;
+}
+
+.custom-field.one input:valid+.placeholder,
+.custom-field.one input:focus+.placeholder {
+    top: 4px;
+    background: rgba(255, 255, 255, 1);
+}
+
+
+.continuar-btn button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    outline: none;
+    overflow: hidden;
+    height: 50px;
+    width: 440px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.continuar-btn {
+    transform: translateY(-40px);
+}
+
+.continuar-btn button:hover {
+    transform: scale(1.1);
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+    transition: 0.5s ease;
+}
+
+.text p {
+    font-weight: 600;
+    font-size: 15px;
+    color: #686363;
+    transform: translateY(18px);
+    margin-right: 35px;
+}
+
+.text2 p {
+    font-weight: 400;
+    font-size: 12px;
+    color: #686363;
+    width: 450px;
+    margin-left: 15px;
+}
+
+.img-footer {
+    width: 436px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
